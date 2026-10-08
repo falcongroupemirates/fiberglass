@@ -1,14 +1,14 @@
 /*---------------------------------
-	1.2 Theme SCSS
+	1.2 Theme Falcon Fiber Glass
 ---------------------------------*/
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Industrie - Construction and Factory HTML Template
+    Template Name: Falcon Fiber Glass
     Author: rs-theme
-    Support: https://rstheme.com/support
-    Description: Construction and Factory HTML Template
+    Support: https://www.falconfiberglassuae.com/contact-us.html
+    Description: Falcon Fiber Glass
     Version: 1.0.3
-	Developer: Nayeem Ahmed
+	Developer: Wasim Akram
 
 -----------------------------------------------------------------------------------
 
@@ -256,6 +256,65 @@ i[class^=icon-] {
   line-height: 1;
   position: relative;
 }
+
+/** Start whatsapp-sticky */
+.whatsapp-sticky {
+    position: fixed;
+    left: 22px;
+    bottom: 22px;
+    width: 58px;
+    height: 58px;
+    background-color: #25D366;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-sticky:hover {
+    background-color: #128C7E;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+/** Ends whatsapp-sticky */
+
+/** Start Call Now Sticky Button */
+.call-sticky {
+    position: fixed;
+    right: 22px;
+    bottom: 90px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 18px;
+    background-color: #283892;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+
+.call-sticky:hover {
+    background-color: #b9141b;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.call-sticky i {
+    font-size: 18px;
+}
+/** Ends Call Now Sticky Button */
+
 
 /*----------------------------------------
    Bootstrap customize
